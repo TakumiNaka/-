@@ -57,12 +57,20 @@ a {
 }
 
 a:hover {
-	color: red;
-	/*マウスオン時の文字色*/
+    color: red;
 	text-decoration: solid black;
 	/*マウスオン時に下線を消す設定。残したいならこの１行削除。*/
 }
 
+
+/*containerブロック
+---------------------------------------------------------------------------*/
+
+#container {
+	max-width: 1500px;
+	/*サイトの最大幅*/
+	margin: 0 auto;
+}
 
 
 /*header
@@ -73,16 +81,9 @@ a:hover {
 
 /*メニューブロック*/
 #menubar {
-	position: fixed;
-	top: 0px;
-	left: 0px;
-	z-index: 20;
 	width: 100%;
-}
-
-.container{
-    height: 17vh;
-    width: auto;
+    height: 13vh;
+    margin-bottom: 20px;
 }
 
 /*メニューブロック内にあるロゴ画像*/
@@ -117,6 +118,7 @@ justify-content: center;
 #menubar ul li a:hover {
     border-bottom:3px solid black;
     padding: 10px;
+    font-weight: bold;
 }
 
 /*スマホ用メニューを非表示*/
@@ -132,6 +134,69 @@ header #logo img{
 	top: 0px;
 	width: 20%;
 	opacity: 75%;
+}
+
+/*メイン
+---------------------------------------------------------------------------*/
+.box1{
+    height: 105vh;
+    width: auto;
+    display: flex;
+    justify-content: start;
+    margin-bottom: 20px;
+}
+
+
+.shopfront{
+    width: 90%;
+}
+
+.est{
+    width: 10%;
+    writing-mode: vertical-rl;
+    text-align: center;
+    line-height: 13vh;
+}
+
+.mgr-1{
+    margin-top:30vh;
+
+}
+.est1:before{
+    content: "";
+    flex-grow: 1;
+    height: 1.2px;
+    background: #000;
+    margin:0 2em;
+    margin-right: .4em;
+  }
+
+  
+  .est1:before {
+    background: linear-gradient(-90deg, #ffaaaa, transparent);
+  }
+
+
+/*固定背景の設定*/
+.cd-fixed-bg {
+    position: relative;
+    min-height: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    z-index: 2;
+}
+
+.cd-fixed-bg.cd-bg-1  {
+    background-image: url(images\店頭.jpg);
+
+}
+
+/*h2*/
+h2{
+    color: black;
+    font-size: 17px;
 }
 
 
