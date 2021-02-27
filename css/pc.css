@@ -182,7 +182,7 @@ header #logo img{
 }
 
 .cd-fixed-bg.cd-bg-1  {
-    background-image: url(file:///C:/Users/takuh/OneDrive/%E3%83%89%E3%82%AD%E3%83%A5%E3%83%A1%E3%83%B3%E3%83%88/GitHub/%E3%81%86%E3%81%97%E3%81%8A%E3%81%A8/images/%E5%BA%97%E9%A0%AD.jpg);
+    background-image: url(https://github.com/TakumiNaka/usioto2/blob/master/images/%E5%BA%97%E9%A0%AD.jpg);
     height: 100vh;
     width: 95%;
 }
@@ -236,7 +236,7 @@ h2{
 .kodawari-img{
   width: 50%;
   height: 100vh;
-  background-image: url(file:///C:/Users/takuh/OneDrive/%E3%83%89%E3%82%AD%E3%83%A5%E3%83%A1%E3%83%B3%E3%83%88/GitHub/%E3%81%86%E3%81%97%E3%81%8A%E3%81%A8/images/S__45531151.jpg);
+  background-image: url(https://github.com/TakumiNaka/usioto2/blob/master/images/S__9011270.jpg);
   position: relative;
   min-height: 100%;
   background-size: cover;
@@ -255,7 +255,7 @@ h2{
 .menu-img{
   height: 100vh;
   width: 100%;
-  background-image: url(file:///C:/Users/takuh/OneDrive/%E3%83%89%E3%82%AD%E3%83%A5%E3%83%A1%E3%83%B3%E3%83%88/GitHub/%E3%81%86%E3%81%97%E3%81%8A%E3%81%A8/images/%E5%BA%97%E9%A0%AD.jpg);
+  background-image: url(https://github.com/TakumiNaka/usioto2/blob/master/images/%E5%BA%97%E9%A0%AD.jpg);
 }
 
 .menu-text{
@@ -374,7 +374,7 @@ h2{
 .info-img{
   width: 55%;
   height: 100vh;
-  background-image: url(file:///C:/Users/takuh/OneDrive/%E3%83%89%E3%82%AD%E3%83%A5%E3%83%A1%E3%83%B3%E3%83%88/GitHub/%E3%81%86%E3%81%97%E3%81%8A%E3%81%A8/images/S__45531151.jpg);
+  background-image: url(https://github.com/TakumiNaka/usioto2/blob/master/images/S__9011270.jpg);
   position: relative;
   min-height: 100%;
   background-size: cover;
