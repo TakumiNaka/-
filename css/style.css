@@ -5,13 +5,13 @@
 /*全体の設定
 ---------------------------------------------------------------------------*/
 body{
-    margin: 0px;
+  margin: 0px;
 	padding:0px;
 	background-color: white;
-    color: black;
+  color: black;
 	font-family: "游明朝", "Yu Mincho", "游明朝体", "YuMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
-    line-height: 2;
-    -webkit-text-size-adjust: none;
+  line-height: 2;
+  -webkit-text-size-adjust: none;
 }
 
 h1, h2, h3, h4, h5, p, ul, ol, li, dl, dt, dd, form, figure, form {
@@ -81,9 +81,9 @@ a:hover {
 
 /*メニューブロック*/
 #menubar {
-	width: 100%;
-    height: 13vh;
-    margin-bottom: 20px;
+  width: 100%;
+  height: 13vh;
+  margin-bottom: 20px;
 }
 
 /*メニューブロック内にあるロゴ画像*/
@@ -147,16 +147,11 @@ header #logo img{
   margin-bottom: 15vh;
 }
 
-.shopfront{
-    width: 93%;
-}
-
 .est{
     width: 7%;
     writing-mode: vertical-rl;
     text-align: center;
     line-height: 8vh;
-
 }
 
 .mgr-1{
@@ -173,7 +168,6 @@ header #logo img{
     margin-right: .4em;
   }
 
-  
 .est1:before {
     background: linear-gradient(-90deg, #ffaaaa, transparent);
   }
@@ -192,6 +186,7 @@ header #logo img{
 .cd-fixed-bg.cd-bg-1  {
     background-image: url(file:///C:/Users/takuh/OneDrive/%E3%83%89%E3%82%AD%E3%83%A5%E3%83%A1%E3%83%B3%E3%83%88/GitHub/%E3%81%86%E3%81%97%E3%81%8A%E3%81%A8/images/%E5%BA%97%E9%A0%AD.jpg);
     height: 100vh;
+    width: 95%;
 }
 
 h2{
@@ -214,6 +209,7 @@ h2{
   text-align: center;
   align-items: center;
   margin-right: 3%;
+  margin-top: 20vh;
 }
 
 
@@ -255,6 +251,7 @@ h2{
   width: 100%;
   margin-bottom: 15vh;
 }
+
 .menu-img{
   height: 100vh;
   width: 100%;
@@ -263,21 +260,26 @@ h2{
 
 .menu-text{
   background-color: white;
-  height: 60vh;
-  width: 90vh;
+  height: 60%;
+  width: 60%;
   text-align: center;
   opacity: 90%;
+  position: relative;
+  top: 20%;
+  left: 20%;
 }
-
 
 .menu-text h3{
   font-size: 2.5vh;
-  }
+  letter-spacing: 4px;
+  padding-top: 10vh;
+  letter-spacing: 4px;
+  word-wrap: break-word;
+}
 
 .menu-text h3 strong{
   font-size: 5vh;
 }
-
 
 .menu-text button{
   width: 40vh;
@@ -287,8 +289,7 @@ h2{
   color:white;
   background-color: rgba(0,0,0,0.8);
   font-family: "游明朝", "Yu Mincho", "游明朝体", "YuMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif; ;
-  margin-top: 15vh;
-
+  margin-top: 5vh; 
 }
 
 
@@ -296,30 +297,73 @@ h2{
 ---------------------------------------------------------------------------*/
 /*box4*/
 .box4{
-  height: 100vh;
+  height: 250vh;
   width: 100%;
-  display: flex;
+  align-content: flex-start;
   margin-bottom: 15vh;
 }
 
 .box4 h4{
+  height: 10vh;
   text-align: center;
   font-size: 44px;
   letter-spacing: 9px;
   padding: 143px 0 77px 10px;
   border-bottom: 1px solid #303030;
-margin-bottom: none;
+　margin-bottom: none;
 }
 
 .box4-1{
+  height: 40vh;
     text-align: center;
     border: 1px solid #303030;
     border-top: none;
     overflow: hidden;
+    margin-bottom: 10vh;
+    align-content: flex-start;
   }
 
+.box4-1 dl{
+    float: left;
+    width: 95%;
+    font-size: 11px;
+    padding: 32px 0 20px;
+}
+
+.box4-1 dl dt{
+  font-size: 17px;
+	letter-spacing: 4px;
+}
+
+.box4-1 dl dd{
+  font-size: 15px;
+  letter-spacing: 3px;
+  margin-bottom: 5vh;
+}
+
+.box4-1 dl dt span.tel{
+	font-size: 30px;
+	padding-left: 20px;
+    text-decoration: none;
+  }
+
+.box4-1 dl dt span.tel a{
+  color: black;
+}
+
+.box4-1 button{
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        outline: none;
+        padding: 0;
+        appearance: none;
+        font-size: 20px;
+        font-family: "游明朝", "Yu Mincho", "游明朝体", "YuMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
 .box4-2{
-  height: 100vh;
+  height: 150vh;
   width: 100%;
   display: flex;
   justify-content: start;
@@ -327,7 +371,7 @@ margin-bottom: none;
 }
 
 .info-img{
-  width: 50%;
+  width: 55%;
   height: 100vh;
   background-image: url(file:///C:/Users/takuh/OneDrive/%E3%83%89%E3%82%AD%E3%83%A5%E3%83%A1%E3%83%B3%E3%83%88/GitHub/%E3%81%86%E3%81%97%E3%81%8A%E3%81%A8/images/S__45531151.jpg);
   position: relative;
@@ -339,8 +383,7 @@ margin-bottom: none;
 }
 
 .info-text{
-  width: 50%;
-  
+  width: 45%;
   height:100vh;
 }
 
@@ -393,7 +436,9 @@ margin-bottom: none;
     animation-fill-mode: forwards;
 }
 
-
+.nav-fix-pos-pagetop a{
+  color: white;
+}
 
 
 
@@ -411,7 +456,7 @@ margin-bottom: none;
 
 /*画面幅800px以下の設定
 ------------------------------------------------------------------------------------------------------------------------------------------------------*/
-@media screen and (max-width:800px){
+@media screen and (max-width:799px){
 
 	/*メインメニュー
 	---------------------------------------------------------------------------*/
@@ -423,7 +468,7 @@ margin-bottom: none;
 	/*ヘッダー
 	---------------------------------------------------------------------------*/
 	/*ロゴ画像（トップページのロゴ画像）*/
-	header #logo img {
+	main #logo img {
 		left: 5%;	/*左から5%の場所に配置*/
 		width: 40%;	/*画像幅*/
 		height: 25vh;
@@ -447,7 +492,8 @@ margin-bottom: none;
 }
 /*メニュー１個あたりの設定*/
 #hamburger li a {
-	display: block;text-decoration: none;
+	display: block;
+  text-decoration: none;
 	padding: 15px 10px 15px 20px;	/*上、右、下、左へのメニュー内の余白*/
 	border-bottom: 1px solid #fff;	/*下の線の幅、線種、色*/
 	color: #fff;	/*文字色*/
@@ -539,7 +585,7 @@ margin-bottom: none;
   }
  
   
-  @media screen and (min-width: 800px){
+  @media screen and (min-width: 799px){
     .btn-gNav{
       display: none;
     }
